@@ -1,0 +1,12 @@
+CREATE DATABASE School;
+GO
+
+USE School;
+GO
+
+CREATE TABLE Students (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(50) NOT NULL,
+    Age INT NOT NULL
+);
+GO
